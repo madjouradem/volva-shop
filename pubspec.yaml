@@ -1,0 +1,57 @@
+name: ecommerce_app
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.1.0-113.0.dev <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get: ^4.6.5
+  url_launcher: 
+  cached_network_image:
+  firebase_core: 
+  firebase_messaging: 
+  flutter_svg: 
+  flutter_screenutil: 
+  awesome_dropdown: 
+  jiffy: ^6.2.1   
+  image_picker: ^1.0.4 
+  dio: 
+  dartz: 
+  lottie:  
+  flutter_otp_text_field: ^1.1.1
+  get_storage: ^2.1.1
+  google_fonts: ^4.0.4
+  social_media_recorder: ^0.1.86
+  audioplayers: ^4.0.1
+  date_format: ^2.0.7
+  geolocator: ^9.0.2
+  geocoding: ^2.1.0
+  location: ^5.0.2+1
+  google_maps_flutter: ^2.4.0
+  keyboard_detection: ^0.6.2
+  flutter_ringtone_player: ^3.2.0
+  rating_dialog: ^2.0.4
+  crypto: ^3.0.3
+  file_picker: ^5.5.0
+  flutter_stripe: ^9.5.0+1
+  flutter_dotenv: ^5.1.0
+  cloud_firestore: ^4.13.3
+  flutter_decorated_text: ^1.0.14
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+  - assets/icons/
+  - assets/images/
+  - assets/lottie/
+  - assets/.env
